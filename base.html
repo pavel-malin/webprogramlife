@@ -1,0 +1,264 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Cайты под ключ, ПО, программы, игры. Администрирование, хост от года. SEO, CEO, MMS. Сотрудничество с Россией, Беларусью, Польшей, странами СНГ и другими." />
+<meta name="keywords" content="Webprogramlife-создание сайтов под ключ, программы, ПО, игры" />
+	<meta name="robots" content="all" />
+	<meta name="revisit-after" content="1 days" />
+	<link rel="canonical" href="http://webprogramlife.ru/" />
+	<meta property="og:site_name" content="Wplife - любые сайты на ваш выбор по эксклюзивной разработке." />
+	<meta property="og:type" content="Создание сайтов под ключ, прогыраммы, ПО, игры" />
+	<meta property="og:title" content="Cайты под ключ, программы, ПО, игры" />
+	<meta property="og:url" content="http://webprogramlife.ru/" />
+	<meta property="og:image" content="images/5.png" />
+	
+<style type="text/css">
+body {
+	background-image: url({% static 'img/log.jpg' %});
+    background-color: white;
+	font-size: 12px;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	background-repeat: repeat-x;
+	background-size: 1353px 80px;
+}
+b
+{color:#00008B}
+.promo {color:#AF0032; font-size:12px; text-align:center;  margin-top:20px}
+.promo a:link, .promo a:visited, .promo a:hover {color:#0066CC; text-decoration:underline;}
+</style>
+	<style>
+		#content {
+			width: 500px; /* Ширина слоя */
+			margin: 0 auto 50px; /* Выравнивание по центру */
+		}
+		#footer {
+			position: fixed; /* Фиксированное положение */
+			left: 0; bottom: 0; /* Левый нижний угол */
+			padding: -3px; /* Поля вокруг текста */
+			background: url({%  static 'img/log.jpg' %}) 1353px -40px; /* Цвет фона */
+			color: black; /* Цвет текста */
+			width: 100%; /* Ширина слоя */
+			font-size: 14px;
+		}
+	</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111711647-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-111711647-1');
+</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>{% block title %}{% endblock %} &ndash;Webprogramlife</title>
+<meta name="google-site-verification" content="_6sZK6CqxfHKrJ31PE3G81C2zv-68L844YVX5ort7sA" />
+	<meta name="yandex-verification" content="8e6da56e6b80e8af" />
+	<meta http-equiv="refresh" content="250; URL=http://webprogramlife.ru" />
+	<link href='{% static 'wplife/open.less'%}' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="{% static 'wplife/jPushMenu.css'%}" />
+	<link rel="stylesheet" href="{% static 'wplife/bootstrap.min.css' %}" />
+	<link rel="stylesheet" href="{% static 'wplife/font-awesome.min.css' %}" />
+	<link rel="stylesheet/less" type="text/css" href="{% static 'wplife/styles.less' %}" />
+	<link rel="stylesheet/css" type="text/css" href="{% static 'js/style.css' %}" />
+	<link rel="shortcut icon"  href="{% static 'img/5.png' %}"  type="image/x-icon" />
+	<script type="text/javascript" src="{% static 'js/less.min.js' %}"></script>
+	<link rel="stylesheet" type="text/css" href="{% static 'wplife/1.css' %}" />
+	<script type="text/javascript" src="{% static 'js/script.js' %}"> </script>
+    <link rel="stylesheet/css" type="text/css" href="{% static 'wplife/style.css' %}" />
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter47177403 = new Ya.Metrika({
+                    id:47177403,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+	<!--LiveInternet counter-->
+	
+
+</head>
+<body>
+<div class="navbar navbar-default" id="top-nav">
+				<div class="container-fluid">
+				  <div class="navbar-collapse">
+				    <ul class="nav navbar-nav navbar-right user-nav">
+				      <li class="dropdown profile_menu">
+				        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img alt="Avatar" width="30px;" src="{% static 'img/5.png' %}" /><span>Гость</span> <b class="caret"></b></a>
+				        <ul class="dropdown-menu">
+				          <li><a href="akaunt.html">Аккаунт</a></li>
+				          <li><a href="reg.html">Регистрация</a></li>
+				          <li class="divider"></li>
+				          <li><a href="enter.html">Войти</a></li>
+				        </ul>
+				      </li>
+				    </ul>
+				<ul class="nav navbar-nav not-nav">
+				    <li class="button">
+						<a class="toggle-menu menu-right push-body" href="javascript:"><i class="fa fa-list"></i>Меню
+				    	</a>
+				    </li>	
+				</ul>
+				  </div>
+				</div>
+			</div>	
+<div id="main-wrapper">
+	<div class="left-sidebar">
+		<div class="navbar-toggle"><i class="fa fa-bars"></i></div>
+		<div class="nav-block">
+			<div class="menu-content" align="center">
+<center><a href="en/index.html"><img src="{% static 'img/en.png' %}" width="28" height="28" alt="flagen"/></a>
+<a href="pl/index.html"><img src="{% static 'img/pl.png' %}" width="28" height="28" alt="flagpl"/></a></center>
+				<div class="content">
+					<div class="side-user" align="center">
+					  <div class="avatar"><img  src="{% static 'img/5.png' %}" width="48" height="48" alt="Avatar" /></div>
+					  <div class="info user-stage">
+					  <h4>webprogramlife</h4>
+					    <div class="dropdown user-panel">
+					      <button data-toggle="dropdown" type="button" class="btn btn-xs dropdown-toggle btn-rounded">
+					        <span>Контакты</span><i class="fa fa-angle-down"></i>
+					      </button><!-- i class="invis" -->
+					 <ul class="dropdown-menu">
+					            <li ><button onclick="location='https://mg.mail.yahoo.com/neo/launch#'"><a href="https://mg.mail.yahoo.com/neo/launch#"><span>pavelyrevich@yahoo.com</span></a></button></li>
+					            <li><button onclick="location='https://mail.google.com/mail/u/0/#inbox'"><a href="https://mail.google.com/mail/u/0/#inbox"><span>kurchevskijpavel@gmail.com</span></a></button></li>
+					            <li><button onclick="location='tel:+7 999 11 33 964'"><a href="tel:+7 999 11 33 964"><span>+7 999 11 33 964</span></a></button></li>
+						    <li><button onclick="location='tel:+375 29 241 01 19'"><a href="tel:+375 29 241 01 19"><span>+375 29 241 01 19</span></a></button></li>
+					          </ul>
+					        </div>
+					    </div>
+					</div>
+					<ul class="left-navigation">
+					<li class="active"><a href="base.html"><i class="fa fa-home"></i><span>Главная меню</span></a></li>
+					<li><a href="sotryg.html"><i class="fa fa-pagelines"></i><span>Сотрудничество</span></a></li>
+					<li><a href="price.html"><i class="fa fa-file-text"></i><span>Цены</span></a>
+					 <!-- <ul class="sub-menu">
+					    <li><a href="apk.html">APK</a></li>
+					    <li><a href="ios.html">IOS</a></li>
+					  </ul>-->
+					</li>
+					</ul>
+					<ul class="left-navigation">
+                       <a href="https://www.instagram.com/webprogramlife/"><img src="{% static 'img/insta.png' %}" height="25" width="25" alt="instagram" /></a>
+                       <a href="https://vk.com/webprogramlife"><img src="{% static 'img/vk.png' %}" height="25" width="25" alt="vk" /></a>
+                       <a href="https://www.facebook.com/webprogramliferu/"><img src="{% static 'img/facebook.png' %}" height="25" width="25" alt="facebook" /></a>
+                       <a href="https://twitter.com/WebGo3?s=03"><img src="{% static 'img/twitr.png' %}" height="25" width="25" alt="twitter" /></a>
+                       <a href="https://www.youtube.com/channel/UCrRD2pne_gyIj2d_1IlTZQw/featured?view_as=subscriber"><img src="{% static 'img/youtube.png' %}" height="25" width="25" alt="youtube" /></a>
+                       <a href="https://github.com/pavel-malin"><img src="{% static 'img/github.png' %}" height="25" width="25" alt="github" /></a>
+
+
+<p align="center"><br><big>Для связи</big></p>
+
+                       <a href="viber://add?number=79991133964"><img src="{%  static 'img/viber.png' %}" width="30" height="30" alt="viber" /></a>
+                       <a href="whatsapp://send?phone=+375292410119"><img src="{% static 'img/Whatsapp.png' %}" width="30" height="30" alt="whatsapp" /></a>
+                       <a href="https://t.me/malinroot"><img src="{% static 'img/telegram.png' %}" width="30" height="30" alt="telegram" /></a>
+		      </ul>
+				</div>
+				<div id="footer">
+                    <p style="color: black;font-size: 14px">&copy; 2017  wplife, webprogramlife &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="mailto:kurchevskijpavel@gmail.com" style="color: black">&nbsp; &nbsp; &nbsp; &nbsp;kurchevskijpavel@gmail.com</a></p>
+                </div>
+			</div>
+		</div>
+	</div>
+<center>
+	<big><p style="color: #777">Мы владеем языками</p></big>
+</center>
+<div id="wrapper">
+	<div id="container">
+		<div class="sliderbutton" id="slideleft" onclick="slideshow.move(-1)"></div>
+		<div id="slider">
+			<ul>
+				<li><img src="{% static 'img/mysql.jpeg' %}" width="70" height="70" alt="mysql" /></li>
+                                <li><img src="{% static 'img/html1.jpg' %}" width="70" height="70" alt="HTML" /></li>
+                                <li><img src="{% static 'img/javascript.jpeg' %}" width="70" height="70" alt="Javascript" /></li>
+                                <li><img src="{% static 'img/php.png' %}" width="70" height="70" alt="PHP" /></li>
+                                <li><img src="{% static 'img/python3.jpeg' %}" width="70" height="70" alt="Python 3.6" /></li>
+                                            
+                              
+			</ul>
+		</div>
+		<div class="sliderbutton" id="slideright" onclick="slideshow.move(1)"></div>
+		<ul id="pagination" class="pagination">
+			<li onclick="slideshow.pos(0)"></li>
+			<li onclick="slideshow.pos(1)"></li>
+			<li onclick="slideshow.pos(2)"></li>
+			<li onclick="slideshow.pos(3)"></li>
+			<li onclick="slideshow.pos(4)"></li>
+                       
+		</ul>
+
+	</div>
+</div>
+ 
+{% block content %}
+     {% endblock %}
+
+    <img src="{% static 'img/end.png' %}" />
+    <div class="container-fluid" id="fluid-wrapper">
+        <div class="main-content">
+		</div>
+	</div>
+</div>
+<!-- Right Sidebar -->
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
+	<h3>Наши Работы</h3>
+	<a href="site.html">Сайты</a>
+	<a href="program.html">Программы</a>
+	<a href="programapk.html">Приложения для Android</a>
+	<a href="programios.html">Приложения для IOS</a>
+	<a href="po.html">ПО</a>
+	<a href="iskluziv.html">Галерея эксклюзивных работ</a>
+</nav>
+
+<!-- Footer JS scripts for faster loading -->
+<script type="text/javascript" href="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jPushMenu.js' %}"></script>
+<!--<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>-->
+<script type="text/javascript" src="{% static 'js/../../static/wplife/main.js' %}"></script>
+<script type="text/javascript">
+	var slideshow=new TINY.slider.slide('slideshow',{
+	id:'slider',
+	auto:5,
+	resume:false,
+	vertical:false,
+	navid:'pagination',
+	activeclass:'current',
+	position:0,
+	rewind:false,
+	elastic:true,
+	left:'slideleft',
+	right:'slideright'
+});
+</script>
+<script type="text/javascript">
+    document.write("<a href='//www.liveinternet.ru/click' "+
+        "target=_blank><img src='//counter.yadro.ru/hit?t14.6;r"+
+        escape(document.referrer)+((typeof(screen)=="undefined")?"":
+            ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+            screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+        ";h"+escape(document.title.substring(0,150))+";"+Math.random()+
+        "' alt='' title='LiveInternet: показано число просмотров за 24"+
+        " часа, посетителей за 24 часа и за сегодня' "+
+        "border='0' width='88' height='31'><\/a>")
+</script><!--/LiveInternet-->
+<noscript><div><img src="https://mc.yandex.ru/watch/47177403" style="position:absolute; left:-9999px;" alt="yandex" /></div></noscript>
+</body>
+</html>
